@@ -1,0 +1,6 @@
+{
+    "gun_ak": true,
+    "gun_makarov": true,
+    "bullet": true,
+    "bullet_amount": 156
+}
