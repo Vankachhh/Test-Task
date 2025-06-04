@@ -26,6 +26,8 @@ public class Enemy : MonoBehaviour
     private float lastAttackTime; // Время последней атаки
     private bool isPlayerInRange; // Флаг, находится ли игрок в радиусе
 
+    public Animator animator;
+
     private void Start()
     {
         // Инициализация здоровья
@@ -99,12 +101,17 @@ public class Enemy : MonoBehaviour
             if (distanceToPlayer > attackDistance)
             {
                 MoveTowardsPlayer();
+                animator.SetBool("move", true);
             }
             // Атака, если игрок в радиусе атаки
             else if (Time.time >= lastAttackTime + attackDelay)
             {
                 Attack();
             }
+        }
+        else
+        {
+            animator.SetBool("move", false);
         }
     }
 

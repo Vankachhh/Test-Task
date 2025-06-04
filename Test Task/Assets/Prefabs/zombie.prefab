@@ -192,14 +192,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026121318385116136}
-  m_LocalRotation: {x: -0, y: -0, z: 0.20297912, w: 0.9791831}
-  m_LocalPosition: {x: 0.09640531, y: -0.031887665, z: 0.007750399}
+  m_LocalRotation: {x: -0, y: -0, z: 0.06814223, w: 0.99767566}
+  m_LocalPosition: {x: 0.0628, y: -0.0365, z: 0.007750399}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2585087367142856559}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 7.815}
 --- !u!212 &8686284178834940458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -507,6 +507,7 @@ GameObject:
   - component: {fileID: 2585087367142856559}
   - component: {fileID: 2237632038267378650}
   - component: {fileID: 5497502430308381041}
+  - component: {fileID: 5180790927231850027}
   m_Layer: 0
   m_Name: zombie
   m_TagString: Untagged
@@ -562,6 +563,7 @@ MonoBehaviour:
   - {fileID: 7842823200497633582, guid: 3a66b01025d532c4f9055626e26f728f, type: 3}
   - {fileID: 3466035178671517541, guid: 39389838e120beb4a9fed44e9072a275, type: 3}
   - {fileID: 7029246291945477948, guid: a445df2bcdfe8104396616d7349027c7, type: 3}
+  animator: {fileID: 5180790927231850027}
 --- !u!50 &5497502430308381041
 Rigidbody2D:
   serializedVersion: 4
@@ -583,6 +585,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &5180790927231850027
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633485093280981954}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef8c2b8a6d0b17548888997946dbe4e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4137430353556621087
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,14 +790,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5598636650601350815}
-  m_LocalRotation: {x: -0, y: -0, z: -0.18213364, w: 0.9832738}
-  m_LocalPosition: {x: -0.0956952, y: 0.031912666, z: 0.007750399}
+  m_LocalRotation: {x: -0, y: -0, z: -0.092760175, w: 0.9956885}
+  m_LocalPosition: {x: -0.0884, y: 0.0127, z: 0.007750399}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2585087367142856559}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.645}
 --- !u!212 &2474213349972043333
 SpriteRenderer:
   m_ObjectHideFlags: 0
